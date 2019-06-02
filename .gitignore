@@ -1,0 +1,28 @@
+#
+# .gitignore
+#
+
+#####
+# GENERAL
+#####
+
+*~
+*.bak
+
+
+#####
+# BUILD ARTIFACTS
+#####
+
+*.o
+*.elf
+*.hex
+*.bin
+*.so
+*.ko
+*.exe
+*.dll
+*.out
+*.a
+*.lib
+

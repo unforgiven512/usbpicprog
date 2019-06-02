@@ -1,0 +1,96 @@
+#
+# .gitattributes
+#
+
+#####
+# GENERIC
+#####
+
+*					text=auto
+
+
+#####
+# SOURCE CODE
+#####
+
+*.c					text eol=lf diff=cpp
+*.h					text eol=lf diff=cpp
+*.cc				text eol=lf diff=cpp
+*.hh				text eol=lf diff=cpp
+*.cpp				text eol=lf diff=cpp
+*.hpp				text eol=lf diff=cpp
+*.cxx				text eol=lf diff=cpp
+*.hxx				text eol=lf diff=cpp
+*.ino				text eol=lf diff=cpp
+*.pde				text eol=lf diff=cpp
+*.py				text eol=lf diff=python
+*.pl				text eol=lf diff=perl
+*.php3				text eol=lf diff=php
+*.php4				text eol=lf diff=php
+*.php5				text eol=lf diff=php
+*.php7				text eol=lf diff=php
+*.php				text eol=lf diff=php
+*.cs				text eol=crlf diff=csharp
+*.go				text eol=lf diff=golang
+*.java				text eol=lf diff=java
+
+
+#####
+# SCRIPTS & BUILD
+#####
+
+*.sh				text eol=lf
+*.bash				text eol=lf
+*.fish				text eol=lf
+*.bat				text eol=crlf
+*.cmd				text eol=crlf
+*.ps1				text eol=crlf
+Makefile			text eol=lf
+*.mk				text eol=lf
+*.make				text eol=lf
+*.in				text eol=lf
+Doxyfile			text eol=lf
+*.m4				text eol=lf
+*.am				text eol=lf
+
+
+#####
+# TEXT & MARKUP
+#####
+
+*.txt				text eol=crlf
+*.log				text eol=lf
+*.md				text eol=lf
+*.mkdn				text eol=lf
+*.markdown			text eol=lf
+*.rst				text eol=lf
+*.adoc				text eol=lf
+*.asciidoc			text eol=lf
+*.csv				text eol=lf
+*.htm				text eol=lf diff=html
+*.html				text eol=lf diff=html
+*.xhtml				text eol=lf diff=html
+*.tex				text eol=lf diff=tex
+*.css				text eol=lf diff=css
+*.xml				text eol=lf
+
+
+#####
+# MULTIMEDIA & GRAPHICS
+#####
+
+*.ico				binary
+*.bmp				binary
+*.gif				binary
+*.jpg				binary
+*.jpeg				binary
+*.png				binary
+*.tga				binary
+*.tif				binary
+*.tiff				binary
+*.webp				binary
+
+
+
+
+
